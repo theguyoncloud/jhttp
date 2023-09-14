@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jhttp_1694696192788-pr-trigger-input-set
+  identifier: Build_jhttp_1694696192788prtriggerinputset
+  orgIdentifier: yps_test
+  projectIdentifier: yps_test_prj
+  pipeline:
+    identifier: Build_jhttp_1694696192788
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
